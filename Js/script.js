@@ -72,7 +72,7 @@ function showDedicationText () {
   //seguidores
   let text = getURLParam('text')
   if (!text) {
-    text = `Desde el primer momento en que te vi, jamás imaginé que llegaríamos a conocernos así. La vida nos unió de una forma curiosa, pero hoy agradezco cada detalle de ese destino, porque te convertiste en lo mejor que tengo. Eres hermosa, atractiva y me comprendes de una forma única, tal como yo a ti. Mi mayor deseo es que esto no sea algo pasajero, sino un amor para siempre. ❤️`;
+    text = `Para ti mi amor:\n Desde el primer momento en que te vi, jamás imaginé que llegaríamos a compartir algo tan especial. La vida nos unió de una forma curiosa, y hoy agradezco cada detalle de ese destino, porque te convertiste en lo mejor que tengo. Eres hermosa, increíblemente atractiva y me comprendes de una manera única, así como yo a ti. \nMi mayor deseo es que esto no sea algo pasajero, sino un amor para siempre. ❤️`;
   } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n')
   }
